@@ -3,7 +3,7 @@ import { commonAPI } from "./commonAPI";
 
 //1. upload todo items
 
-const serverURL ='http://localhost:5000'
+const serverURL ='https://todo-server-eyw4.onrender.com'
 export const uploadTodo = async (reqBody) => {
    return await commonAPI ('POST',`${serverURL}/todolist`, reqBody)
 }
