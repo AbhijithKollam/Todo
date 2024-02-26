@@ -30,7 +30,7 @@ function Addtodo({setUploadTodoStatus}) {
             <div>
                 <h3 className='text-center text-primary mt-5 mb-3'>ToDo APPLICATION</h3>
                 <div className='mt-3'>
-                    <input type="text" className='form-control border border-primary' placeholder='Enter Your Task' value={todoValue.todoName}
+                    <input type="text" className='form-control border border-primary' placeholder='Enter the Task' value={todoValue.todoName}
                     onChange={(e) => setTodoValue({...todoValue, todoName:e.target.value})} />
                 </div>
                 <div className='mt-3'>
